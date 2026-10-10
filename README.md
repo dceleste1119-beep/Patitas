@@ -1,2 +1,0 @@
-# Patitas
-Productos para mascotas 
