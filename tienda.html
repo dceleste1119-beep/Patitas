@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f3eb">
+  <meta name="description" content="Descubre productos elegidos con amor para tu mascota en Patitas Club.">
+  <title>Cama Nube · Patitas Club</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="shop-page">
+  <div class="announcement"><span>✳</span> Envío gratis en compras mayores a $999 <span class="announcement-divider">·</span> <a href="#producto">Conoce la cama Nube →</a></div>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">✳</span> patitas<span class="brand-dot">.</span></a>
+    <nav class="main-nav" aria-label="Navegación principal"><a class="nav-active" href="#inicio">Inicio</a><a href="#producto">Tienda</a><a href="#beneficios">Nuestra idea</a></nav>
+    <div class="header-actions"><a href="login.html" class="account-link"><span class="account-icon">◉</span> Mi cuenta</a><button class="cart-button" type="button" onclick="document.getElementById('producto').scrollIntoView({behavior:'smooth'})" aria-label="Ver carrito"><span>♡</span><i id="cart-count">0</i></button></div>
+  </header>
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-copy"><span class="eyebrow"><span class="eyebrow-dot"></span> BIENESTAR EN CADA PATITA</span><h1>Su lugar<br>favorito <span>es<br>contigo.</span></h1><p>También puede ser una camita que los abrace rico. Conoce Nube, su nuevo rincón feliz.</p><a class="button button-dark" href="#producto">Descubrir cama Nube <span class="button-arrow">↘</span></a><div class="rating-row"><div class="avatar-stack"><span>🐕</span><span>🐈</span><span>🐕‍🦺</span></div><div><div class="stars">★★★★★ <span>4.9</span></div><small>Más de 1,200 colitas felices</small></div></div></div>
+      <div class="hero-visual" aria-label="Ilustración de una cama redonda color terracota para mascotas">
+        <div class="hero-shape"></div><span class="hero-spark hero-spark-one">✳</span><span class="hero-spark hero-spark-two">✦</span>
+        <div class="hero-product"><img src="img/producto.svg" alt="Cama Nube: cama redonda de felpa terracota, con un perrito descansando dentro"></div>
+        <div class="floating-note"><span class="note-icon">☁</span><span><b>Como un abrazo</b><small>suave por todos lados</small></span></div>
+        <div class="round-stamp"><span>DESCANSO<br>DEL BUENO</span><b>✳</b></div>
+        <div class="visual-dots" aria-hidden="true">· · · · ·</div>
+      </div>
+      <div class="hero-bottom"><span>01 <i>/</i> 03</span><span class="bottom-line"></span><span>HECHO CON AMOR, PENSADO PARA ELLOS</span></div>
+    </section>
+    <section class="benefits" id="beneficios"><div class="benefit"><span class="benefit-icon">☁</span><div><b>Suavecito, suavecito</b><small>Felpa mullida para siestas largas</small></div></div><div class="benefit"><span class="benefit-icon">♡</span><div><b>Diseñado para acurrucarse</b><small>Bordes altos que dan seguridad</small></div></div><div class="benefit"><span class="benefit-icon">↻</span><div><b>Fácil de limpiar</b><small>Funda removible y lavable</small></div></div><a class="benefit-link" href="#producto">Conoce sus detalles <span>↓</span></a></section>
+    <section class="product-section" id="producto">
+      <div class="product-gallery"><div class="gallery-badge">EL FAVORITO <span>✳</span></div><img src="img/producto.svg" alt="Cama Nube vista de cerca con un perrito durmiendo cómodamente"></div>
+      <div class="product-details"><span class="eyebrow"><span class="eyebrow-dot"></span> DESCANSO CON ESTILO</span><h2>Cama Nube<span class="heading-period">.</span></h2><div class="product-rating"><span class="stars">★★★★★</span> <span>4.9 · 128 reseñas</span></div><p class="product-description">Suave como una nube, acogedora como un abrazo. Un rinconcito mullido para que tu compañero descanse, se estire y sueñe en grande.</p><div class="price-row"><strong>$1,249</strong><span>MXN</span><del>$1,499</del><span class="save-pill">Ahorras $250</span></div><div class="detail-label">COLOR <b>Terracota cálido</b></div><div class="swatches"><button class="swatch selected" aria-label="Terracota cálido" title="Terracota cálido"></button><button class="swatch swatch-sage" aria-label="Verde salvia" title="Verde salvia"></button><button class="swatch swatch-cream" aria-label="Crema" title="Crema"></button></div><div class="detail-label size-heading">TAMAÑO <a href="#tallas">Guía de tallas</a></div><div class="sizes"><button class="size-option">S <small>hasta 8 kg</small></button><button class="size-option active">M <small>hasta 18 kg</small></button><button class="size-option">L <small>hasta 30 kg</small></button></div><button class="button button-orange button-full buy-button" id="buy-button" type="button" onclick="const c=document.getElementById('cart-count'); c.textContent=Number(c.textContent)+1; this.innerHTML='✓ Agregado a tu carrito'; this.classList.add('added'); setTimeout(()=>{this.innerHTML='Agregar al carrito <span class=\'button-arrow\'>↗</span>';this.classList.remove('added')},1800)">Agregar al carrito <span class="button-arrow">↗</span></button><div class="product-perks"><span>✓ Envío en 2–5 días</span><span>✓ Cambios fáciles</span><span>✓ Pago seguro</span></div></div>
+    </section>
+    <section class="features" id="tallas"><div class="features-heading"><span class="eyebrow"><span class="eyebrow-dot"></span> PENSADA PARA SU DESCANSO</span><h2>Los detalles hacen<br><span>la diferencia.</span></h2></div><div class="feature-cards"><article><span class="feature-number">01 / DESCANSO</span><div class="feature-icon">☁</div><h3>Un abrazo por todos lados</h3><p>Los bordes elevados crean un espacio acogedor donde pueden apoyar su cabecita y sentirse protegidos.</p></article><article><span class="feature-number">02 / CUIDADO</span><div class="feature-icon">✿</div><h3>Fácil de mantener fresca</h3><p>La funda se retira con cierre y va directo a la lavadora. Menos preocupaciones, más apapachos.</p></article><article><span class="feature-number">03 / TALLAS</span><div class="feature-icon">⌁</div><h3>El espacio justo para ellos</h3><p>S para razas pequeñas, M para medianas y L para grandes. Si duda entre dos tallas, elige la más amplia.</p></article></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="index.html"><span class="brand-mark">✳</span> patitas<span class="brand-dot">.</span></a><span>Hecho con amor para sus mejores días <b>♥</b></span><span>© 2025 Patitas Club</span></footer>
+</body>
+</html>

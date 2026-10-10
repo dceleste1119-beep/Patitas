@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f3eb">
+  <title>Inicia sesión · Patitas Club</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="login-page">
+  <div class="login-layout">
+    <section class="login-story" aria-label="Bienvenida">
+      <a class="brand" href="index.html"><span class="brand-mark">✳</span> patitas<span class="brand-dot">.</span></a>
+      <div class="story-copy">
+        <span class="eyebrow"><span class="eyebrow-dot"></span> HECHO PARA QUIENES LOS QUIEREN</span>
+        <h1>Más colitas<br>felices. <span>Más días<br>juntos.</span></h1>
+        <p>Pequeñas cosas que hacen una gran diferencia en sus vidas.</p>
+      </div>
+      <div class="story-art" aria-hidden="true">
+        <div class="sun-disc"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="pet-sticker">🐾</div><span class="sparkle sparkle-a">✳</span><span class="sparkle sparkle-b">✦</span>
+        <span class="art-caption">mucho amor,<br>muchas patitas</span>
+      </div>
+      <div class="story-footer"><span>© 2025 Patitas Club</span><span>Un club para ellos <b>♥</b></span></div>
+    </section>
+    <main class="login-main">
+      <div class="mobile-brand"><a class="brand" href="index.html"><span class="brand-mark">✳</span> patitas<span class="brand-dot">.</span></a></div>
+      <div class="login-card">
+        <div class="welcome-icon">✳</div>
+        <p class="eyebrow muted">QUÉ BUENO TENERTE AQUÍ</p>
+        <h2>Hola de nuevo<span class="heading-period">.</span></h2>
+        <p class="login-intro">Entra a tu cuenta y descubre algo especial para tu mejor amigo.</p>
+        <form action="tienda.html" method="get" class="login-form">
+          <label for="usuario">Correo electrónico o usuario</label>
+          <div class="input-wrap"><span class="input-icon" aria-hidden="true">✉</span><input id="usuario" name="usuario" type="text" placeholder="hola@ejemplo.com" autocomplete="username" required></div>
+          <div class="label-row"><label for="contrasena">Contraseña</label><a href="#" class="text-link" onclick="event.preventDefault(); alert('Si necesitas ayuda, escríbenos a hola@patitas.club');">¿La olvidaste?</a></div>
+          <div class="input-wrap"><span class="input-icon lock-icon" aria-hidden="true">◈</span><input id="contrasena" name="contrasena" type="password" placeholder="Mínimo 6 caracteres" autocomplete="current-password" minlength="6" required><button class="show-password" type="button" aria-label="Mostrar contraseña" onclick="const f=document.getElementById('contrasena'); f.type=f.type==='password'?'text':'password'; this.setAttribute('aria-label',f.type==='password'?'Mostrar contraseña':'Ocultar contraseña');">◉</button></div>
+          <button class="button button-dark button-full" type="submit">Iniciar sesión <span class="button-arrow">↗</span></button>
+        </form>
+        <p class="signup-note">¿Primera vez por aquí? <a href="tienda.html" class="text-link">Conoce nuestra tienda →</a></p>
+        <div class="secure-note"><span>✦</span> Un espacio seguro para ti y tu mascota</div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

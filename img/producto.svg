@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 600" role="img" aria-labelledby="title desc">
+<title id="title">Cama Nube para mascotas</title><desc id="desc">Ilustración de una cama mullida color terracota con un perrito dormido.</desc>
+<defs><linearGradient id="bed" x1="0" y1="0" x2="0.8" y2="1"><stop stop-color="#d88e6c"/><stop offset="1" stop-color="#b86649"/></linearGradient><linearGradient id="inner" x1="0" y1="0" x2="0.8" y2="1"><stop stop-color="#efc1a3"/><stop offset="1" stop-color="#d99576"/></linearGradient><filter id="shadow" x="-30%" y="-40%" width="160%" height="190%"><feGaussianBlur stdDeviation="14"/></filter></defs>
+<ellipse cx="354" cy="510" rx="238" ry="42" fill="#79533d" opacity=".18" filter="url(#shadow)"/>
+<!-- plush donut bed -->
+<ellipse cx="350" cy="405" rx="259" ry="139" fill="#a4563d"/><path d="M91 392c0-107 116-183 258-183s259 76 259 183c0 87-103 151-259 151S91 479 91 392Z" fill="url(#bed)"/><ellipse cx="350" cy="382" rx="183" ry="89" fill="#a45f48" opacity=".45"/><ellipse cx="350" cy="363" rx="179" ry="90" fill="url(#inner)"/><ellipse cx="350" cy="380" rx="174" ry="73" fill="#dcaa8c" opacity=".42"/>
+<!-- sleeping puppy -->
+<path d="M246 359c-4-55 35-96 99-98 55-2 100 32 101 85 1 46-45 76-107 77-49 1-90-18-93-64Z" fill="#f1d8b6"/><path d="M278 286c-39-38-70 7-44 54 12 22 32 23 47 8Z" fill="#986548"/><path d="M388 275c41-28 63 22 30 57-14 15-31 13-42 0Z" fill="#986548"/><path d="M288 330c10-7 21-7 30 0" fill="none" stroke="#684936" stroke-width="6" stroke-linecap="round"/><path d="M363 330c10-7 21-7 30 0" fill="none" stroke="#684936" stroke-width="6" stroke-linecap="round"/><ellipse cx="342" cy="351" rx="8" ry="6" fill="#563b32"/><path d="M342 357c-3 10-15 11-20 5m20-5c4 10 16 10 21 4" fill="none" stroke="#805646" stroke-width="4" stroke-linecap="round"/><path d="M302 390c29 21 66 20 94-2" fill="none" stroke="#e6bd98" stroke-width="9" stroke-linecap="round"/><path d="M316 403c15 9 42 9 56 0" fill="none" stroke="#d59975" stroke-width="5" stroke-linecap="round"/>
+<!-- paws -->
+<ellipse cx="263" cy="399" rx="29" ry="17" fill="#f1d8b6"/><ellipse cx="427" cy="400" rx="28" ry="17" fill="#f1d8b6"/><path d="M247 400v7m12-10v9m160-8v9m14-7v7" stroke="#d2ac8c" stroke-width="2.5" stroke-linecap="round"/>
+<!-- stitching accents -->
+<path d="M131 411c14 51 61 89 122 105m-92-169c16-26 42-46 72-59m325 126c-13 50-60 86-118 103" fill="none" stroke="#f0b292" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+<path d="M172 439c15 25 36 44 61 57m-23-203c17-15 36-27 58-35m244 176c-14 22-35 42-60 55" fill="none" stroke="#f4c3a2" stroke-width="2" stroke-dasharray="4 9" stroke-linecap="round" opacity=".8"/>
+<!-- tiny sparkles -->
+<path d="M530 167v22m-11-11h22M157 222v16m-8-8h16" stroke="#e5a279" stroke-width="4" stroke-linecap="round"/><circle cx="535" cy="255" r="4" fill="#91a07a"/><circle cx="186" cy="191" r="4" fill="#91a07a"/>
+</svg>
